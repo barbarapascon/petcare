@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>About</ion-title>
+    <ion-title>Sobre</ion-title>
     <ion-buttons slot="end">
       <ion-button (click)="presentPopover($event)">
         <ion-icon slot="icon-only" name="more"></ion-icon>
@@ -14,35 +14,14 @@
 
 <ion-content>
   <div class="about-header">
-    <img src="assets/img/ionic-logo-white.svg" alt="ionic logo">
+    <img src="assets/img/petcaree.png" alt="ionic logo">
   </div>
   <div padding class="about-info">
-    <h4>Ionic Conference</h4>
-
-    <ion-list lines="none">
-      <ion-item>
-        <ion-icon name="calendar" slot="start"></ion-icon>
-        <ion-label>Date</ion-label>
-        <ion-datetime displayFormat="MMM DD, YYYY" max="2056" [(ngModel)]="conferenceDate"></ion-datetime>
-      </ion-item>
-
-      <ion-item>
-        <ion-icon name="pin" slot="start"></ion-icon>
-        <ion-label>Location</ion-label>
-        <ion-select>
-          <ion-select-option value="madison" selected>Madison, WI</ion-select-option>
-          <ion-select-option value="austin">Austin, TX</ion-select-option>
-          <ion-select-option value="chicago">Chicago, IL</ion-select-option>
-          <ion-select-option value="seattle">Seattle, WA</ion-select-option>
-        </ion-select>
-      </ion-item>
-    </ion-list>
+    <h4>PETCARE</h4>
 
     <p>
-      The Ionic Conference is a one-day conference featuring talks from the Ionic team. It is focused on Ionic applications being
-      built with Ionic 2. This includes migrating apps from Ionic 1 to Ionic 2, Angular concepts, Webpack, Sass, and many
-      other technologies used in Ionic 2. Tickets are completely sold out, and we’re expecting more than 1000 developers
-      – making this the largest Ionic conference ever!
+      O objetivo do projeto PetCare é realizar o monitoramento das condições físicas e localização on-line dos pets, através de um aplicativo WebApp que vai receber as informações dos batimentos cardíacos, temperatura, latídos e localização do pet. Esse dados vão ser coletados e enviados através de uma coleira inteligente repleta de sensores e conectada a internet. 
+      O WebApp vai contar com um tarefa de projeção e planejamento dos custos com o pet, contando com estabelecimentos pré-cadastrados no banco de dados
     </p>
   </div>
 </ion-content>
