@@ -246,47 +246,47 @@
 
   "speakers": [
     {
-      "name": "Burt Bear",
+      "name": "Scooby",
       "profilePic": "/assets/img/speakers/bear.jpg",
       "twitter": "ionicframework",
-      "about": "Burt is a Bear.",
+      "about": "um cachorrinho muito carinhoso e docil.",
       "location": "Everywhere",
       "email": "burt@example.com",
       "phone": "+1-541-754-3010",
       "id": "1"
     },
     {
-      "name": "Charlie Cheetah",
+      "name": "Gata Laila",
       "profilePic": "/assets/img/speakers/cheetah.jpg",
       "twitter": "ionicframework",
-      "about": "Charlie is a Cheetah.",
+      "about": "gatinha manhosa.",
       "location": "Everywhere",
       "email": "charlie@example.com",
       "phone": "+1-541-754-3010",
       "id": "2"
     },
     {
-      "name": "Donald Duck",
+      "name": "peixe peixoto",
       "profilePic": "/assets/img/speakers/duck.jpg",
       "twitter": "ionicframework",
-      "about": "Donald is a Duck.",
+      "about": "Peixinho dolrado bem simpatico.",
       "location": "Everywhere",
       "email": "donald@example.com",
       "phone": "+1-541-754-3010",
       "id": "3"
     },
     {
-      "name": "Eva Eagle",
+      "name": "calopsita Nickie",
       "profilePic": "/assets/img/speakers/eagle.jpg",
       "twitter": "ionicframework",
-      "about": "Eva is an Eagle.",
+      "about": "Caopsita .",
       "location": "Everywhere",
       "email": "eva@example.com",
       "phone": "+1-541-754-3010",
       "id": "4"
     },
     {
-      "name": "Ellie Elephant",
+      "name": " Elephant",
       "profilePic": "/assets/img/speakers/elephant.jpg",
       "twitter": "ionicframework",
       "about": "Ellie is an Elephant.",
@@ -296,7 +296,7 @@
       "id": "5"
     },
     {
-      "name": "Gino Giraffe",
+      "name": "Giraffe",
       "profilePic": "/assets/img/speakers/giraffe.jpg",
       "twitter": "ionicframework",
       "about": "Gino is a Giraffe.",
@@ -306,7 +306,7 @@
       "id": "6"
     },
     {
-      "name": "Isabella Iguana",
+      "name": "Iguana",
       "profilePic": "/assets/img/speakers/iguana.jpg",
       "twitter": "ionicframework",
       "about": "Isabella is an Iguana.",
@@ -316,7 +316,7 @@
       "id": "7"
     },
     {
-      "name": "Karl Kitten",
+      "name": "gatinho",
       "profilePic": "/assets/img/speakers/kitten.jpg",
       "twitter": "ionicframework",
       "about": "Karl is a Kitten.",
@@ -326,7 +326,7 @@
       "id": "8"
     },
     {
-      "name": "Lionel Lion",
+      "name": "Leao",
       "profilePic": "/assets/img/speakers/lion.jpg",
       "twitter": "ionicframework",
       "about": "Lionel is a Lion.",
@@ -336,7 +336,7 @@
       "id": "9"
     },
     {
-      "name": "Molly Mouse",
+      "name": "Ratinho",
       "profilePic": "/assets/img/speakers/mouse.jpg",
       "twitter": "ionicframework",
       "about": "Molly is a Mouse.",
@@ -346,7 +346,7 @@
       "id": "10"
     },
     {
-      "name": "Paul Puppy",
+      "name": "cachorrinho",
       "profilePic": "/assets/img/speakers/puppy.jpg",
       "twitter": "ionicframework",
       "about": "Paul is a Puppy.",
@@ -356,7 +356,7 @@
       "id": "11"
     },
     {
-      "name": "Rachel Rabbit",
+      "name": "rato",
       "profilePic": "/assets/img/speakers/rabbit.jpg",
       "twitter": "ionicframework",
       "about": "Rachel is a Rabbit.",
@@ -366,7 +366,7 @@
       "id": "12"
     },
     {
-      "name": "Ted Turtle",
+      "name": "tartaruga",
       "profilePic": "/assets/img/speakers/turtle.jpg",
       "twitter": "ionicframework",
       "about": "Ted is a Turtle.",
@@ -379,7 +379,7 @@
 
   "map": [
     {
-      "name": "Monona Terrace Convention Center",
+      "name": "Gata lisa",
       "lat": 43.071584,
       "lng": -89.38012,
       "center": true
