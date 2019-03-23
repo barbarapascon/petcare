@@ -31,6 +31,11 @@ export class AppComponent implements OnInit {
       icon: 'map'
     },
     {
+      title: 'Custos',
+      url: '/app/tabs/custo',
+      icon: 'map'
+    },
+    {
       title: 'About',
       url: '/app/tabs/about',
       icon: 'information-circle'
