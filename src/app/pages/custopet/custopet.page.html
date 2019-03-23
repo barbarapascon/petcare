@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>custopet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-radio-group>
+      <ion-list-header>
+        <ion-label>TIPO ANIMAL</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Gato</ion-label>
+        <ion-radio slot="start" animal.tipo="gato" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Cachorro</ion-label>
+        <ion-radio slot="start" animal.tipo="cachorro" checked></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>rato</ion-label>
+        <ion-radio slot="start" animal.tipo="rato" checked></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+ 
+ <p>Digite a baixo o preço mensal</p>
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked" color="primary">Ração</ion-label>
+      <ion-input [(ngModel)]="animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+      </ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked" color="primary">Medicamentos</ion-label>
+      <ion-input [(ngModel)]="animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+      </ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item ng-if="animal.tipo==gato">
+      <ion-label position="stacked" color="primary">Areia Sanitaria</ion-label>
+      <ion-input [(ngModel)]="animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+      </ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked" color="primary">Banho e Tosa</ion-label>
+      <ion-input [(ngModel)]="animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+      </ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked" color="primary">Veterinario</ion-label>
+      <ion-input [(ngModel)]="animal.name" name="name" type="number" spellcheck="false" autocapitalize="off">
+      </ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label position="stacked" color="primary">Banho e tosa</ion-label>
+        <ion-input [(ngModel)]="animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+        </ion-input>
+      </ion-item>
+    
+    <ion-item>
+      <ion-label position="stacked" color="primary">Valor Total</ion-label>
+      <ion-input [(ngModel)]="user.animal.raca" name="raca" type="text" spellcheck="false" autocapitalize="off">
+      </ion-input>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
