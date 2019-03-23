@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons>
+          <ion-back-button defaultHref="/app/tabs/speakers"></ion-back-button>
+        </ion-buttons>
+    <ion-title>createpet</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding>
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked" color="primary">Nome</ion-label>
+        <ion-input [(ngModel)]="user.animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+        </ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked" color="primary">data Nascimento</ion-label>
+        <ion-input [(ngModel)]="user.animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+        </ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked" color="primary">Sobre</ion-label>
+        <ion-input [(ngModel)]="user.animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked" color="primary">Peso</ion-label>
+        <ion-input [(ngModel)]="user.animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked" color="primary">Altura</ion-label>
+        <ion-input [(ngModel)]="user.animal.name" name="name" type="text" spellcheck="false" autocapitalize="off">
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked" color="primary">Tipo</ion-label>
+        <ion-select placeholder="Selecione">
+          <ion-select-option user.animal.tipo="gato">gato</ion-select-option>
+          <ion-select-option user.animal.tipo="gato">cachorro</ion-select-option>
+          <ion-select-option user.animal.tipo="gato">rato</ion-select-option>
+    
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked" color="primary">Raça</ion-label>
+        <ion-input [(ngModel)]="user.animal.raca" name="raca" type="text" spellcheck="false" autocapitalize="off">
+        </ion-input>
+      </ion-item>
+      <ion-row responsive-sm>
+          <ion-col>
+            <ion-button (click)="onLogin(loginForm)" type="submit" expand="block">Criar</ion-button>
+          </ion-col>
+     
+        </ion-row>
+    </ion-list>
+    
+    </ion-content>
+    >
