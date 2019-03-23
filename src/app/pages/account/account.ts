@@ -70,7 +70,9 @@ export class AccountPage implements AfterViewInit {
     this.userData.logout();
     this.router.navigateByUrl('/login');
   }
-
+  meusPet() {
+    this.router.navigateByUrl('/speaker-list');
+  }
   support() {
     this.router.navigateByUrl('/support');
   }

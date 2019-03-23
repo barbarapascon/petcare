@@ -17,6 +17,10 @@ const routes: Routes = [
     loadChildren: './pages/support/support.module#SupportModule'
   },
   {
+    path: 'speaker-list',
+    loadChildren: './pages/speaker-list/speaker-list.module#SpeakerListModule'
+  },
+  {
     path: 'login',
     loadChildren: './pages/login/login.module#LoginModule'
   },
@@ -32,11 +36,13 @@ const routes: Routes = [
     path: 'tutorial',
     loadChildren: './pages/tutorial/tutorial.module#TutorialModule',
     canLoad: [CheckTutorial]
-  }
+  },
+  { path: 'createpet', loadChildren: './pages/createpet/createpet.module#CreatepetPageModule' },
+   { path: 'custopet', loadChildren: './pages/custopet/custopet.module#CustopetPageModule' }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
