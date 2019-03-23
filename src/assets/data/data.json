@@ -353,7 +353,13 @@
       "location": "Everywhere",
       "email": "paul@example.com",
       "phone": "+1-541-754-3010",
-      "id": "11"
+      "id": "11",
+      "peso": "5",
+      "altura":"60",
+      "tipo":"cachorro",
+      "raca":"pug",
+      "data_nasc":"12/02/2004",
+      "batimento":"20"
     },
     {
       "name": "rato",

@@ -58,6 +58,15 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'custo',
+        children: [
+          {
+            path: '',
+            loadChildren: '../custopet/custopet.module#CustopetPageModule'
+          }
+        ]
+      },
+      {
         path: '',
         redirectTo: '/app/tabs/schedule',
         pathMatch: 'full'
